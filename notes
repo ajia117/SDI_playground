@@ -1,0 +1,57 @@
+LINKS:
+https://learn-2.galvanize.com/cohorts/2760
+https://chat.il2.dso.mil/p1-onboarding/channels/software-development-immersive---062121
+
+
+pure/impure functions
+js react useEffects()
+
+js SEAT - testing framework
+    setup
+    execute/exercise
+    assert
+    teardown
+js export - export: just functions
+    module - class export
+
+memoization - caching of results of costly calculation/call to allow future
+    calls without rerunning calculation or call
+
+Basics of Node
+package.json
+    stores dependencies for page
+    scripts:
+        start - 'npm run start' script
+spec directory - testing (may be Galvanize specific?)
+js window object: anything in window
+
+
+Javascript Object Oriented
+
+method = function inside of class
+
+javascript "functional" (class constructor instantiation) convention example: 
+const Warrior = function (height) { // convention: capitalized variable = class constructor
+  const instance = {
+    height: height
+  }
+  instance.battleCry = function () {
+    return 'Can i get some pizza?'
+  }
+  return instance //construct object
+}
+
+javascript "functional shared pattern" (method class) convention example:
+
+const Warrior = function() {
+  ...
+  Object.assign(instance, warriorMethods)
+  ...
+  return instance
+}
+
+const warriorMethods = {
+  warriorMethods.battleCry = function() {
+    return 'Raar'
+  }
+}
