@@ -1,0 +1,14 @@
+{
+  "name": "telephone_words",
+  "version": "1.0.0",
+  "description": "",
+  "main": "telephoneWords.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.0.4"
+  },
+  "author": "",
+  "license": "ISC"
+}
